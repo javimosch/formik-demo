@@ -3,7 +3,7 @@ import { Formik } from "formik";
 
 const Basic = () => (
   <div>
-    <h1>Anywhere in your app!</h1>
+    <h1>Form</h1>
     <Formik
       initialValues={{ email: "", password: "" }}
       validate={values => {
